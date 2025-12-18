@@ -45,7 +45,7 @@ export default function Home() {
   }, [handleMouseMove]);
 
   return (
-    <main className="relative w-screen h-screen overflow-hidden bg-background font-body">
+    <main className="relative w-screen h-screen overflow-hidden bg-animated-gradient font-body">
       <div className="pointer-events-none absolute bottom-4 right-4 text-right text-muted-foreground md:bottom-8 md:right-8">
         <h1 className="text-3xl font-headline font-bold text-primary/80 md:text-5xl">
           Eternal Hearts
