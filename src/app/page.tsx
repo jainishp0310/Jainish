@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
-import { NameForm } from '@/components/name-form';
 
 export default function Home() {
   const [heartName, setHeartName] = useState('Hetanshi');
@@ -47,9 +46,6 @@ export default function Home() {
 
   return (
     <main className="relative w-screen h-screen overflow-hidden bg-background font-body">
-      <div className="absolute top-4 left-4 z-10 md:top-8 md:left-8">
-        <NameForm setHeartName={setHeartName} />
-      </div>
       <div className="pointer-events-none absolute bottom-4 right-4 text-right text-muted-foreground md:bottom-8 md:right-8">
         <h1 className="text-3xl font-headline font-bold text-primary/80 md:text-5xl">
           Eternal Hearts
