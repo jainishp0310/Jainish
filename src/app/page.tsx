@@ -47,7 +47,7 @@ export default function Home() {
   return (
     <main className="relative w-screen h-screen overflow-hidden bg-animated-gradient font-body">
       <div className="absolute bottom-4 right-4 text-2xl font-bold text-white mix-blend-soft-light">
-        Jai♥Het
+        Jai❤️Het
       </div>
     </main>
   );
